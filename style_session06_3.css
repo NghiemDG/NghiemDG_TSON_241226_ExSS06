@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* top */
+.top {
+  background-color: rgb(59, 75, 82);
+  color: white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.top ul {
+  margin-right: 10px;
+  margin-left: auto;
+}
+.top li {
+  margin-left: 10px;
+}
+.top a {
+  color: white;
+  text-decoration: none;
+}
+.avatar {
+  border-radius: 50%;
+}
+.top h2 {
+  display: inline-block;
+  margin-left: 10px;
+}
+.top ul li {
+  display: inline-block;
+  text-align: right;
+}
+/* middle */
+.middle {
+  display: flex;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+}
+.middle img {
+  width: 90px;
+  height: 90px;
+  margin: 20px;
+}
+.middle h4 {
+  display: inline;
+  margin-left: 5px;
+}
+/* bottom */
+.bottom ul {
+  display: flex;
+  align-items: auto;
+}
+.bottom h4 {
+  margin: 15px;
+}
+.bottom li {
+  display: inline-block;
+  padding-top: 10px;
+  width: 23%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  background-color: rgb(59, 75, 82);
+  margin: auto;
+  border-radius: 5%;
+}
+/* connect */
+.connect {
+  background-color: rgb(243, 243, 243);
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.connect a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

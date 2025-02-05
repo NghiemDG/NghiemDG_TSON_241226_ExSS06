@@ -1,0 +1,33 @@
+/* Cascading ?????
+Thứ tự sử dụng các thuộc tính trong css
+- Thuộc tính viết sau đè lên (override) thuộc tính viết trước */
+li {
+  color: pink;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: green;
+}
+#li3 {
+  background-color: greenyellow;
+}
+.li2 {
+  background-color: yellowgreen;
+}
+.chung {
+  background-color: aqua;
+}
+div u {
+  color: paleturquoise;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: yellow;
+}
